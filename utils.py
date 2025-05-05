@@ -42,8 +42,8 @@ class QuestionGenerator:
             "Software Engineering", "System Design"
         ]
         self.non_technical_topics = [
-            "Aptitude", "Logical Reasoning", "Verbal Reasoning", "Puzzles", "Grammar", "English", "Percentage", 
-            "Age Problems", "Time/Speed/Distance", "Series", "Seating Arrangements"
+            "Aptitude", "Logical Reasoning", "Verbal Reasoning", "Puzzles", "Grammar", "English" 
+        
         ]
 
     def validate_topic(self, module, topic):
