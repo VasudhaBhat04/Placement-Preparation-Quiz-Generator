@@ -1,4 +1,4 @@
-Inspired by a UPSC question generator logic seen on YouTube; adapted and extended it for placement prep quizzes with custom modules, difficulty levels, and LLM integration.
+Inspired by a UPSC question generator logic seen on YouTube; adapted and extended it for placement prep quizzes with custom modules, difficulty levels, and  Pre- trained LLM (GROQ) integration.
 
 Contains 2 modules:
 Technical: Covers topics like Data Structures, Algorithms, DBMS, SQL, Operating Systems, OOPs, Computer Networks, etc.
