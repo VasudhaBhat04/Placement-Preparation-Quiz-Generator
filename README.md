@@ -1,22 +1,14 @@
-Inspired by a UPSC question generator logic seen on YouTube; adapted and extended it for placement prep quizzes with custom modules, difficulty levels, and  Pre- trained LLM (GROQ) integration.
+Placement Preparation Quiz Generator
 
-Contains 2 modules:
-Technical: Covers topics like Data Structures, Algorithms, DBMS, SQL, Operating Systems, OOPs, Computer Networks, etc.
-Users can select from Easy, Medium, or Difficult levels.
-Choose from 10, 15, or 20-question.
-And a countdown timer of 10,15 & 20 minutes
+A Streamlit application that generates placement-focused multiple choice questions in real time using Groq-hosted LLaMA 3 models via LangChain.
+Modules
+Technical
 
+Topics: Data Structures, Algorithms, OOPs, DBMS, Operating Systems, Computer Networks, System Design, and more.
+Difficulty levels: easy, medium, difficult.
 
-Non-Technical: Includes Aptitude, Logical Reasoning & Verbal Ability .
-Choose from 10, 15, or 20-question.
-And a countdown timer of 10,15 & 20 minutes
+Non-Technical
 
-Users submit answers and can anaylize their answers too...
+Topics: Aptitude, Logical Reasoning, Verbal Reasoning, Puzzles, Grammar, English.
 
-Questions and options are generated in real-time using Groq-hosted LLaMA 3 models via LangChain.
-
-app.py: Streamlit frontend that handles quiz flow, UI, timer, and result display.
-
-utils.py: Backend logic for generating questions using Groq LLM and evaluating answers.
-
-.env: Stores your generated Groq API key to load with dotenv.
+Both modules support 10, 15, or 20 questions with a countdown timer of 10, 15, or 20 minutes.
